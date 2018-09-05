@@ -4,16 +4,13 @@ body {
    font-weight: 300;
 }
 
-
 .text-muted {
    color: "#bcbbbb";
  }
 
-
 .text-thin {
    font-weight: 100;
 }
-
 
 hr {
   border: none;
@@ -22,35 +19,29 @@ hr {
   background-color: "#a1b3d1";
 }
 
-
 .text-bold {
   font-weight: 300;
   font-size: 20px;
 }
 
-
 .thumbnail {
   width: 150px;
 }
 
-
 .space {
   padding: 50px;
 }
-
 
 .space-left-right {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-
 .picture-align {
   float: right;
 }
 
-
-.myId:hover{
+.myId:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
