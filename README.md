@@ -2,7 +2,7 @@
 A responsive Portfolio web page built with HTML,CSS and Bootstrap which is a great way to showcase yourself.
 
 # Getting Started  
-You can access the files of this project from [ this Github link ]( https://github.com/TanyaGir/Portfolio)
+You can access the files of this project from [ this Github link ]( https://github.com/TanyaGir/Portfolio-FEND)
 
 ## Prerequistes  
 In order to view these files you must have a   
@@ -18,8 +18,8 @@ In order to view these files you must have a
 4) You have to unzip those files and run them in order for them to work.
 
 ## With the above steps done  
-1) You can access the files from [ this Github link ]( https://github.com/TanyaGir/Portfolio )
-2) Open your web browser and run the file Myportfolio.html in the browser to view the Portfolio page.
+1) You can access the files from [ this Github link ]( https://github.com/TanyaGir/Portfolio-FEND )
+2) Open your web browser and run the file index.html in the browser to view the Portfolio page.
 3) The layout of the page has been done by implementing Bootstrap grid based layout.
 4) You can click on the bottom 3 images on the page with the names Appify , Netshop, Webstore in order to see the Modal functionality , i.e., Pop up windows.  
 5) You can also resize the browser window to see the responsiveness of the page on different viewports.
