@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.js" async></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" async></script>
+  </head>
+  <body>
+  <!--Modal-->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" alt="modal pop up window" src="images/555.jpeg">
+          This was my first project in this class. I learned a lot about HTML and CSS.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" alt="modal pop up window" src="images/555.jpeg">
+          This was my second project in this class. I learned a lot about Bootstrap.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" alt="modal pop up window" src="images/555.jpeg">
+          This was my third project in this class. I learned a lot about CSS and Sass.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <header class="row space">
+      <div class="col-md-6">
+        <img src="Puppypics/logo.jpg" alt="Udacity logo" class="img-responsive thumbnail">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="text-thin">Tanya Sharma</h1>
+        <h4 class="text-thin">Front End Ninja</h4>
+      </div>
+    </header>
+    <section class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </section>
+    <main>
+      <section class="row space">
+        <div class="col-sm-6">
+          <p class="text-bold">I am a Web-developer interested in learning and improving code.I have been working on many projects and have information available about them in the following sections under the title Featured Work.</p>
+        </div>
+        <div class="col-sm-6">
+          <img  src="Puppypics/html.jpg" alt="htmlcode picture" class="img-responsive picture_align">
+        </div>
+      </section>
+    </main>
+    <section class="row">
+      <div class="col-sm-12">
+        <h2 class="text-muted space_left_right">Featured Work</h2>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-sm-12">
+        <br/>
+      <div class="dropdown">
+        <a class="dropdown-toggle space_left_right text-muted" data-toggle="dropdown" id="dropdownMenu">
+          Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu text-muted" aria-labelledby="dropdownMenu">
+            <li><a href="#">Appify</a></li>
+            <li><a href="#">Netshop</a></li>
+            <li><a href="#">Webstore</a></li>
+          </ul>
+      </div>
+      </div>
+    </section>
+    <section class="row space">
+      <div class="col-sm-4">
+        <article>
+          <img src="Puppypics/puppy1.jpg" alt="appify picture" class="img-responsive myId" data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase">Appify</h3>
+          <p>https://www.google.com</p>
+        </article>
+      </div>
+      <div class="col-sm-4">
+        <article>
+          <img src="Puppypics/puppy2.jpg" alt="netshop picture" class="img-responsive myId" data-toggle="modal" data-target="#project2">
+          <h3 class="text-uppercase">Netshop</h3>
+          <p>https://www.google.com</p>
+        </article>
+      </div>
+      <div class="col-sm-4">
+        <article>
+          <img src="Puppypics/puppy3.jpg" alt="webstore picture" class="img-responsive myId" data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase">Webstore</h3>
+          <p>https://www.google.com</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <section class="row space">
+        <div class="col-sm-12">
+          <p>&copy 2018 - Organisation</p>
+        </div>
+      </section>
+    </footer>
+  </div>
+ </body>
+</html>
